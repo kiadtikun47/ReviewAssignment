@@ -1,0 +1,38 @@
+.roro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+a{
+    color: green;
+    margin-right: 50px;
+    
+}
+a:hover{
+    color: red;
+}
+img{
+    transition: all .1s ease-in-out;
+}
+img:hover{
+    transform: scale(1.2);
+}
+.pro{
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+   
+}
+.pro:hover{
+    border: 2px solid red;
+}
+.pro:hover h2 {
+    color: red;
+}
+
+ul{
+    list-style-type: none;
+}
